@@ -28,3 +28,14 @@ nav a {
 nav a:last-child {
   margin-right: 0px;
 }
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #f9faf8;
+}
