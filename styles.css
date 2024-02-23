@@ -1,3 +1,5 @@
+
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -10,9 +12,4 @@
     height: 50px; /* Adjust as needed */
   }
   
-  .nav {
-    display: flex;
-    list-style-type: none;
-   
-  }
   
