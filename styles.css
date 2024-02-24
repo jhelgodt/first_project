@@ -37,8 +37,8 @@ nav a:last-child {
 .hero-container {
   display: flex;
   justify-content: space-between;
-  align-items: left;
-  flex-direction: column;
+  align-items: start;
+  flex-direction: row;
   background-color: #1f2937;
   padding: 5px;
   padding-left: 150px;
@@ -46,9 +46,14 @@ nav a:last-child {
   color: #f9faf8;
 }
 
+.hero-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .hero-container * {
   margin: 3px; /* adjust as needed */
-  width: 40%;
 }
 
 .hero-container h1 {
@@ -61,7 +66,11 @@ nav a:last-child {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  align-items: left;
+  align-items: start;
   width: 60px;
   border-radius: 10px; /* adjust as needed */
+}
+
+.placeholder {
+  width: 240px;
 }
