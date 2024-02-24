@@ -8,8 +8,8 @@ body {
   align-items: center;
   background-color: #1f2937;
   padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 a {
   text-decoration: none;
@@ -32,10 +32,16 @@ nav a:last-child {
 .hero-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
   background-color: #1f2937;
   padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
   color: #f9faf8;
+}
+
+.hero-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
 }
