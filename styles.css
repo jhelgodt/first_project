@@ -92,7 +92,7 @@ nav a:last-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   background-color: white;
   padding: 5px;
   padding-left: 150px;
@@ -100,4 +100,12 @@ nav a:last-child {
   color: #1f2937;
   height: 220px;
   padding-bottom: 100px;
+}
+
+.boxes {
+  /* This makes the boxes a flex container in the row direction */
+  display: flex;
+}
+.content-container p {
+  display: block;
 }
