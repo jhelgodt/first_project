@@ -82,10 +82,13 @@ nav a:last-child {
   align-items: center;
 }
 .box {
-  width: 200px; /* adjust as needed */
-  height: 200px; /* adjust as needed */
-  border: 2px solid blue; /* adjust as needed */
+  width: 150px; /* adjust as needed */
+  height: 150px; /* adjust as needed */
+  border: 3px solid blue; /* adjust as needed */
   background-color: white;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  border-radius: 10px; /* adjust as needed */
 }
 
 .content-container {
@@ -108,4 +111,9 @@ nav a:last-child {
 }
 .content-container p {
   display: block;
+  width: 150px;
+}
+
+.content-container h2 {
+  margin: 30px;
 }
