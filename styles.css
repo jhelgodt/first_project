@@ -117,3 +117,18 @@ nav a:last-child {
 .content-container h2 {
   margin: 30px;
 }
+
+.quote-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  height: 220px;
+  padding-bottom: 10px;
+}
