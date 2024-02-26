@@ -131,3 +131,17 @@ nav a:last-child {
   height: 220px;
   padding-bottom: 10px;
 }
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #1f2937;
+  padding: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #f9faf8;
+  height: 220px;
+  padding-bottom: 100px;
+}
