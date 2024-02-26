@@ -120,13 +120,12 @@ nav a:last-child {
 
 .quote-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: end;
   flex-direction: column;
   background-color: #1f2937;
   padding: 5px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
   color: #1f2937;
   background-color: #e5e7eb;
   height: 220px;
